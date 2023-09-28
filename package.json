@@ -1,0 +1,11 @@
+{
+  "name": "node-js-crud-api",
+  "version": "1.0.0",
+  "description": "A CRUD API built only with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luci Akirami",
+  "license": "ISC"
+}
