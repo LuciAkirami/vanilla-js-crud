@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "The Fast and the Furious",
+    "releaseYear": 2001,
+    "director": "Rob Cohen",
+    "mainCharacters": ["Dominic Toretto", "Brian O'Conner", "Letty Ortiz"],
+    "description": "The film that started it all, where Brian O'Conner infiltrates the world of street racing to catch a gang of thieves.",
+    "rating": 6.8
+  },
+  {
+    "id": "2",
+    "title": "2 Fast 2 Furious",
+    "releaseYear": 2003,
+    "director": "John Singleton",
+    "mainCharacters": ["Brian O'Conner", "Roman Pearce", "Tej Parker"],
+    "description": "Brian O'Conner teams up with an old friend to bring down a Miami drug lord.",
+    "rating": 5.9
+  },
+  {
+    "id": "3",
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "releaseYear": 2006,
+    "director": "Justin Lin",
+    "mainCharacters": ["Sean Boswell", "Han Lue", "Neela"],
+    "description": "A teenager learns the art of drift racing in Tokyo and gets caught up in the world of the Yakuza.",
+    "rating": 6.0
+  },
+  {
+    "id": "4",
+    "title": "Fast & Furious",
+    "releaseYear": 2009,
+    "director": "Justin Lin",
+    "mainCharacters": ["Dominic Toretto", "Brian O'Conner", "Mia Toretto"],
+    "description": "Dominic Toretto and Brian O'Conner reunite to take down a heroin importer.",
+    "rating": 6.6
+  },
+  {
+    "id": "5",
+    "title": "Fast Five",
+    "releaseYear": 2011,
+    "director": "Justin Lin",
+    "mainCharacters": ["Dominic Toretto", "Brian O'Conner", "Hobbs"],
+    "description": "Dom and his crew pull off a heist in Rio de Janeiro while being pursued by a relentless federal agent.",
+    "rating": 7.3
+  },
+  {
+    "id": "6",
+    "title": "Fast & Furious 6",
+    "releaseYear": 2013,
+    "director": "Justin Lin",
+    "mainCharacters": ["Dominic Toretto", "Brian O'Conner", "Letty Ortiz"],
+    "description": "Dom and his team help Hobbs take down a criminal organization led by a skilled mercenary.",
+    "rating": 7.1
+  },
+  {
+    "id": "7",
+    "title": "Furious 7",
+    "releaseYear": 2015,
+    "director": "James Wan",
+    "mainCharacters": ["Dominic Toretto", "Brian O'Conner", "Deckard Shaw"],
+    "description": "The crew faces a vengeful adversary while trying to rescue a kidnapped family member.",
+    "rating": 7.1
+  },
+  {
+    "id": "8",
+    "title": "The Fate of the Furious",
+    "releaseYear": 2017,
+    "director": "F. Gary Gray",
+    "mainCharacters": ["Dominic Toretto", "Letty Ortiz", "Cipher"],
+    "description": "Dom is coerced into betraying his team and working with a cyberterrorist.",
+    "rating": 6.7
+  },
+  {
+    "id": "9",
+    "title": "F9: The Fast Saga",
+    "releaseYear": 2021,
+    "director": "Justin Lin",
+    "mainCharacters": ["Dominic Toretto", "Jakob Toretto", "Mia Toretto"],
+    "description": "Dom faces off against his estranged brother Jakob, a skilled assassin, in a high-stakes adventure.",
+    "rating": 5.2
+  }
+]
