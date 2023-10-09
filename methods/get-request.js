@@ -59,10 +59,16 @@ module.exports = (req, res) => {
         );
         res.end();
       }
-    } else {
-      //console.log(info);
+    } else if (filteredData.length == 1) {
+      // filterData can be empty is the part does not exist
       res.statusCode = 200;
       res.write(JSON.stringify(filteredData[0]));
+      res.end();
+    } else {
+      res.statusCode = 404;
+      res.write(
+        JSON.stringify({ title: "Not Found", message: "Movie Not Found" })
+      );
       res.end();
     }
   } else {

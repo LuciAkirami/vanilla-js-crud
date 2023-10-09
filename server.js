@@ -9,6 +9,7 @@ let fastAndFurious = require("./data/fastandfurious.json");
 const getRequest = require("./methods/get-request");
 const postRequest = require("./methods/post-request");
 const putRequest = require("./methods/put-request");
+const delRequest = require("./methods/delete-request");
 
 // try getting a PORT number from .env else use 5001
 const PORT = process.env.PORT || 5001;
@@ -25,6 +26,9 @@ const server = http.createServer((req, res) => {
       break;
     case "PUT":
       putRequest(req, res);
+      break;
+    case "DELETE":
+      delRequest(req, res);
       break;
     default:
       res.statusCode = 404;
