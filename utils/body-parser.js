@@ -1,3 +1,4 @@
+// body parser to parse the body from the POST request
 module.exports = async (request) => {
   return new Promise((resolve, reject) => {
     try {
