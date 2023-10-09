@@ -16,7 +16,7 @@ module.exports = (req, res) => {
   // part is the part of the f&f movie, if the user wants a specific part
   if (req.url.split("/").length > 3) {
     baseURL = req.url.split("/").slice(0, 3).join("/") + "/";
-    console.log("Hello", baseURL);
+    //console.log("Hello", baseURL);
   }
 
   const part = req.url.split("/")[3]; // ["","api","movies","1"][3] -> 1
@@ -35,7 +35,7 @@ module.exports = (req, res) => {
   } else if (
     baseURL === "/api/movies/" &&
     0 < part &&
-    part < req.movies.length
+    part <= req.movies.length
   ) {
     // part cannot be 0 or less and there is no 0 part of f&f movie
     // as the data contains only f&f movies, the movies.length represents the last part
@@ -60,7 +60,7 @@ module.exports = (req, res) => {
         res.end();
       }
     } else {
-      console.log(info);
+      //console.log(info);
       res.statusCode = 200;
       res.write(JSON.stringify(filteredData[0]));
       res.end();
